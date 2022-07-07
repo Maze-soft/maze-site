@@ -9,6 +9,7 @@
 
 body{
 	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
 }
 
 .Inicio{
@@ -102,7 +103,7 @@ a{
 .card {
   border-radius: 5px;
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-  padding: 30px;
+  padding: 20px;
   position: relative;
   left: 1%;
   width: 400px;
@@ -238,6 +239,30 @@ label.logo{
 
 	#check:checked ~ ul{
 		left: 0;
+	}
+
+	.Inicio h1, h4, button{
+		position: relative;
+		right: 50px;
+		font-size: 20px;
+	}
+
+	.card{
+		width: 400px;
+		height: 200px;
+		position: relative;
+		right: 100px;
+		margin-left: 10px;
+	}
+
+	.a{
+		position: relative;
+		right: 300px;
+	}
+
+	.sobre h1, .t, .c{
+		position: relative;
+		right: 100px;
 	}
 }
 
